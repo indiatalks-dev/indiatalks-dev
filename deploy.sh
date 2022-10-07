@@ -13,7 +13,7 @@ git config user.email "jdecode@gmail.com"
 git config user.username "jdecode"
 git config user.name "Jagdeep Singh"
 git remote -v
-git statuss
+git status
 git add -A
 git commit -m 'deploy'
 
