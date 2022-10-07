@@ -22,6 +22,7 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 git push -f git@github.com:indiatalks-dev/indiatalks-dev.github.io.git main
+git push -f https://jdecode:${{INDIA_TALKS_DEV_PAGES_DEPLOY_TOKEN}}@github.com/indiatalks-dev/indiatalks-dev.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
