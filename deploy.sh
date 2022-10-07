@@ -3,8 +3,8 @@
 # abort on errors
 set -e
 
-git --global config init.defaultBranch main
 git init
+git --global config init.defaultBranch main
 
 git --global config user.email "jdecode@gmail.com"
 git --global config user.name "Jagdeep Singh"
