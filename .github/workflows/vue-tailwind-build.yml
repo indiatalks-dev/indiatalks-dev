@@ -31,6 +31,4 @@ jobs:
     - run: npm run tailwind
     - run: cp -a dist/. public/
     - run: chmod +x ./deploy.sh
-    - run: git config user.email "jdecode@gmail.com"
-    - run: git config user.name "Jagdeep Singh"
     - run: ./deploy.sh
