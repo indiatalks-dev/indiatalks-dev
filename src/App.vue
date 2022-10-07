@@ -6,13 +6,13 @@ import IndiaTalks from "./components/IndiaTalks.vue";
   <div class="min-h-screen flex flex-col justify-between">
     <header class="text-center">
       <img
-          alt="IndiaTalks.dev"
-          class="mx-auto w-36 my-10"
-          src="/public/favicon.png"
+        alt="IndiaTalks.dev"
+        class="mx-auto w-36 my-10"
+        src="/public/favicon.png"
       />
 
       <div>
-        <IndiaTalks msg="India" msg2="Talks"/>
+        <IndiaTalks msg="India" msg2="Talks" />
       </div>
     </header>
     <footer class="text-center mb-4">
@@ -20,4 +20,3 @@ import IndiaTalks from "./components/IndiaTalks.vue";
     </footer>
   </div>
 </template>
-
