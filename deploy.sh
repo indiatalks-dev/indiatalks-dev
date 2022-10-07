@@ -14,7 +14,7 @@ git config user.username "jdecode"
 git config user.name "Jagdeep Singh"
 git remote -v
 git status
-git add -A
+git add .
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
