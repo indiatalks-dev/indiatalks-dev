@@ -8,7 +8,7 @@ import IndiaTalks from "./components/IndiaTalks.vue";
       <img
           alt="IndiaTalks.dev"
           class="mx-auto w-36 my-10"
-          src="favicon.png"
+          src="/public/favicon.png"
       />
 
       <div>

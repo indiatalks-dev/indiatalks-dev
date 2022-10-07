@@ -6,7 +6,8 @@
     "build": "vite build",
     "preview": "vite preview --port 4173",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "tailwind": "tailwindcss -i ./src/assets/main.css -o ./public/app.css --watch"
+    "tailwind": "tailwindcss -i ./src/assets/main.css -o ./public/app.css",
+    "tailwinding": "tailwindcss -i ./src/assets/main.css -o ./public/app.css --watch"
   },
   "dependencies": {
     "vue": "^3.2.38",
