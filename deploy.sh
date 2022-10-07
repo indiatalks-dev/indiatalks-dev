@@ -12,6 +12,8 @@ echo > .nojekyll
 git config user.email "jdecode@gmail.com"
 git config user.username "jdecode"
 git config user.name "Jagdeep Singh"
+git remote -v
+git status
 git init
 git checkout -b main
 git add -A
