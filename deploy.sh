@@ -3,6 +3,9 @@
 # abort on errors
 set -e
 
+git config user.email "jdecode@gmail.com"
+git config user.name "Jagdeep Singh"
+
 # build
 npm run build
 
@@ -15,8 +18,6 @@ echo > .nojekyll
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git config user.email "jdecode@gmail.com"
-git config user.name "Jagdeep Singh"
 git init
 git checkout -b main
 git add -A
