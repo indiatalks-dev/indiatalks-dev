@@ -27,4 +27,4 @@ jobs:
     - run: git config user.username "jdecode"
     - run: git config user.name "Jagdeep Singh"
     - run: git commit -m "GitHub Pages | gh-pages/docs"
-    - run: git push -f https://jdecode:${{ secrets.INDIA_TALKS_DEV_PAGES_DEPLOY_TOKEN }}@github.com/indiatalks-dev/indiatalks-dev.git main:gh-pages
+    - run: git push -f https://jdecode:${{ secrets.INDIA_TALKS_DEV_PAGES_DEPLOY_TOKEN }}@github.com/indiatalks-dev/indiatalks-dev.github.io.git main:gh-pages
