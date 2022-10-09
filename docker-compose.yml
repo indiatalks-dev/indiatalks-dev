@@ -12,7 +12,7 @@ services:
       - "3000:3000"
     networks:
       indiatalks-dev-app-network:
-        ipv4_address: 220.30.1.1
+        ipv4_address: 110.105.1.1
 
 # Local network for services running using this docker-compose config
 networks:
@@ -20,4 +20,4 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: 220.30.0.0/16
+        - subnet: 110.105.0.0/16
