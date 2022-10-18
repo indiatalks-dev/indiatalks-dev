@@ -1,5 +1,13 @@
-<script setup>
+<script>
 import IndiaTalks from "./components/IndiaTalks.vue";
+import Laravel from "./components/Laravel.vue";
+
+export default {
+  components: {
+    IndiaTalks,
+    Laravel,
+  },
+};
 </script>
 
 <template>
@@ -9,15 +17,16 @@ import IndiaTalks from "./components/IndiaTalks.vue";
         alt="India Talks Dev"
         title="India Talks Dev"
         class="mx-auto w-36 my-10"
-        src="/public/favicon.png"
+        src="/favicon.png"
       />
 
       <div>
-        <IndiaTalks msg="India" msg2="Talks" />
+        <IndiaTalks text_1="India" text_2="Talks"/>
       </div>
     </header>
     <footer class="text-center mb-4">
-      By developers who love to talk
+      <div>By developers who love to talk</div>
+      <laravel></laravel>
     </footer>
   </div>
 </template>
