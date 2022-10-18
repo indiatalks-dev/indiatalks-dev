@@ -13,7 +13,3 @@ docker-compose up --build -d && docker-compose exec vuer-app bash
 npm install && npm run build && npm run dev
 ```
 
-#### Lint with [ESLint](https://eslint.org/) *as and when needed*
-```sh
-npm run lint
-```
