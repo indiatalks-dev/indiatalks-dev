@@ -13,3 +13,4 @@ docker-compose up --build -d && docker-compose exec vuer-app bash
 npm install && npm run build && npm run dev
 ```
 
+!push-testing
